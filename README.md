@@ -1,0 +1,8 @@
+# FoodOrderingSystemGUI using swing 
+This code is a Java program that implements a basic food ordering system. The program allows a user to select items from a menu of four food items: Pizza, Burger, Pasta, and Salad. The user can choose to order one or more items, view their current order list, cancel an order item, or quit the program.
+
+The program starts by displaying the menu of food items and their corresponding prices. The user is prompted to enter their choice (1-7). If the user chooses to order a food item, the corresponding food item is added to the order list and the total cost is updated. If the user chooses to view the order list, the program displays the list of food items that have been ordered so far. If the user chooses to cancel an order item, the program prompts the user to enter the item number and removes the corresponding item from the order list and updates the total cost. If the user chooses to quit the program, the program displays the final total cost.
+
+The order list and the total cost are stored in two variables: an ArrayList named "orderList" and a double variable named "total", respectively. The order list stores the names of the food items that have been ordered, while the total cost stores the cumulative cost of all the food items in the order list.
+
+In this code, a switch statement is used to handle the different choices made by the user. The switch statement checks the value of the "choice" variable, which is the user's choice, and performs the appropriate action based on the value of the "choice" variable. This allows for a clean and efficient implementation of the food ordering system.
